@@ -1,0 +1,274 @@
+{
+  "pages": [
+    {
+      "source": "404.html",
+      "slug": "not-found",
+      "bodyClass": ""
+    },
+    {
+      "source": "about-me.html",
+      "slug": "about-me",
+      "bodyClass": ""
+    },
+    {
+      "source": "about-us.html",
+      "slug": "about-us",
+      "bodyClass": ""
+    },
+    {
+      "source": "blog-grid-sidebar.html",
+      "slug": "blog-grid-sidebar",
+      "bodyClass": ""
+    },
+    {
+      "source": "blog-grid.html",
+      "slug": "blog-grid",
+      "bodyClass": ""
+    },
+    {
+      "source": "blog-single.html",
+      "slug": "blog-single",
+      "bodyClass": ""
+    },
+    {
+      "source": "blog-standard.html",
+      "slug": "blog-standard",
+      "bodyClass": ""
+    },
+    {
+      "source": "comming-soon.html",
+      "slug": "comming-soon",
+      "bodyClass": ""
+    },
+    {
+      "source": "contact.html",
+      "slug": "contact",
+      "bodyClass": ""
+    },
+    {
+      "source": "faqs.html",
+      "slug": "faqs",
+      "bodyClass": ""
+    },
+    {
+      "source": "home-creative-agency.html",
+      "slug": "home-creative-agency",
+      "bodyClass": ""
+    },
+    {
+      "source": "home-design-studio.html",
+      "slug": "home-design-studio",
+      "bodyClass": ""
+    },
+    {
+      "source": "home-freelancer.html",
+      "slug": "home-freelancer",
+      "bodyClass": ""
+    },
+    {
+      "source": "home-portfolio-gallery.html",
+      "slug": "home-portfolio-gallery",
+      "bodyClass": "pt-0"
+    },
+    {
+      "source": "home-portfolio-metro.html",
+      "slug": "home-portfolio-metro",
+      "bodyClass": ""
+    },
+    {
+      "source": "home-portfolio-minimal.html",
+      "slug": "home-portfolio-minimal",
+      "bodyClass": ""
+    },
+    {
+      "source": "home-portfolio-pinterest.html",
+      "slug": "home-portfolio-pinterest",
+      "bodyClass": ""
+    },
+    {
+      "source": "home-portfolio-showcase.html",
+      "slug": "home-portfolio-showcase",
+      "bodyClass": ""
+    },
+    {
+      "source": "index.html",
+      "slug": "home-main",
+      "bodyClass": ""
+    },
+    {
+      "source": "our-pricing.html",
+      "slug": "our-pricing",
+      "bodyClass": ""
+    },
+    {
+      "source": "our-process.html",
+      "slug": "our-process",
+      "bodyClass": ""
+    },
+    {
+      "source": "our-services.html",
+      "slug": "our-services",
+      "bodyClass": ""
+    },
+    {
+      "source": "our-team.html",
+      "slug": "our-team",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-4columns-wide.html",
+      "slug": "portfolio-4columns-wide",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-4columns.html",
+      "slug": "portfolio-4columns",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-5columns-wide.html",
+      "slug": "portfolio-5columns-wide",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-5columns.html",
+      "slug": "portfolio-5columns",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-gallery.html",
+      "slug": "portfolio-gallery",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-masonry-scattered.html",
+      "slug": "portfolio-masonry-scattered",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-masonry.html",
+      "slug": "portfolio-masonry",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-pinterest.html",
+      "slug": "portfolio-pinterest",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-showcase.html",
+      "slug": "portfolio-showcase",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-big-gallery.html",
+      "slug": "portfolio-single-big-gallery",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-big-images.html",
+      "slug": "portfolio-single-big-images",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-big-masonry.html",
+      "slug": "portfolio-single-big-masonry",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-big-slider.html",
+      "slug": "portfolio-single-big-slider",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-small-gallery.html",
+      "slug": "portfolio-single-small-gallery",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-small-images.html",
+      "slug": "portfolio-single-small-images",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-small-masonry.html",
+      "slug": "portfolio-single-small-masonry",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-single-small-slider.html",
+      "slug": "portfolio-single-small-slider",
+      "bodyClass": ""
+    },
+    {
+      "source": "portfolio-standard.html",
+      "slug": "portfolio-standard",
+      "bodyClass": ""
+    },
+    {
+      "source": "shop-4columns.html",
+      "slug": "shop-4columns",
+      "bodyClass": ""
+    },
+    {
+      "source": "shop-cart.html",
+      "slug": "shop-cart",
+      "bodyClass": ""
+    },
+    {
+      "source": "shop-sidebar.html",
+      "slug": "shop-sidebar",
+      "bodyClass": ""
+    },
+    {
+      "source": "shop-single-product.html",
+      "slug": "shop-single-product",
+      "bodyClass": ""
+    }
+  ],
+  "components": {
+    "site-header": 13,
+    "page-404": 2,
+    "search-popup": 1,
+    "hamburger-menu": 2,
+    "page-title": 13,
+    "pb-0": 3,
+    "portfolio-masonry-layout3": 1,
+    "fancybox-layout1": 3,
+    "banner-layout1": 2,
+    "awards": 1,
+    "site-footer": 1,
+    "scroll-top": 1,
+    "fancybox-layout2": 1,
+    "counters": 1,
+    "team-layout1": 2,
+    "testimonials": 1,
+    "clients": 1,
+    "blog-grid": 3,
+    "blog": 1,
+    "blog-single": 1,
+    "google-map": 1,
+    "contact-info": 1,
+    "contact-layout1": 1,
+    "faqs": 1,
+    "slider": 4,
+    "portfolio-masonry": 2,
+    "video": 1,
+    "portfolio-grid": 9,
+    "pt-120": 1,
+    "portfolio": 3,
+    "fixed-sidebar": 1,
+    "menu-popup": 1,
+    "pt-140": 1,
+    "contact-info-layout2": 1,
+    "pricing": 1,
+    "banner-layout2": 2,
+    "banner-layout3": 2,
+    "animated-Progressbars": 1,
+    "portfolio-single": 8,
+    "shop-grid": 2,
+    "shopping-cart": 1,
+    "shop-single": 1,
+    "related-products": 1
+  }
+}

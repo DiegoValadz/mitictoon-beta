@@ -1,0 +1,9 @@
+<header class="header header-light"><nav class="navbar navbar-expand-lg" [class.sticky-navbar]="scrolled" aria-label="Navegación principal"><div class="container">
+<a class="navbar-brand brand-logo" routerLink="/" aria-label="MiTictoon, inicio" (click)="menu=false"><img src="assets/brand/mitictoon-logo.png" alt="Mitictoon" width="172" height="92"></a>
+<button class="navbar-toggler" type="button" [class.actived]="menu" (click)="menu=!menu" [attr.aria-expanded]="menu" aria-controls="mainNavigation" aria-label="Abrir o cerrar menú"><span class="menu-lines"><span></span></span></button>
+<div class="collapse navbar-collapse" [class.menu-opened]="menu" id="mainNavigation"><ul class="navbar-nav mx-auto">
+<li class="nav__item"><a class="nav__item-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="menu=false">Inicio</a></li>
+<li class="nav__item"><a class="nav__item-link" routerLink="/portafolio" routerLinkActive="active" (click)="menu=false">Portafolio</a></li>
+<li class="nav__item"><a class="nav__item-link" routerLink="/servicios" routerLinkActive="active" (click)="menu=false">Servicios</a></li><li class="nav__item"><a class="nav__item-link" routerLink="/sobre-mi" routerLinkActive="active" (click)="menu=false">Sobre mí</a></li>
+<li class="nav__item"><a class="nav__item-link" routerLink="/comisiones" routerLinkActive="active" (click)="menu=false">Comisiones</a></li></ul>
+<a routerLink="/comisiones" class="btn btn__primary nav-cta" (click)="menu=false">Hagamos algo genial <span>↗</span></a></div></div></nav></header>

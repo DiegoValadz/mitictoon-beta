@@ -1,0 +1,89 @@
+@switch (variant()) {
+@case (0) {
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="cart-table table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="cart-product">
+                    <td class="cart-item">
+                      <i class="fas fa-times cart-item__remove"></i>
+                      <div class="cart-item__img">
+                        <img src="assets/images/shop/grid/1.jpg" alt="product" />
+                      </div>
+                      <h5 class="cart-item__title">Leather Shoes</h5>
+                    </td>
+                    <td class="cart-item__price">$ 10.00</td>
+                    <td class="cart-item__quantity">
+                      <div class="quantity__input-wrap">
+                        <i class="fas fa-minus decrease-qty"></i>
+                        <input type="number" value="1" class="qty-input">
+                        <i class="fas fa-plus increase-qty"></i>
+                      </div>
+                    </td>
+                    <td class="cart-item__total">$ 10.00</td>
+                  </tr>
+                  <tr class="cart-product">
+                    <td class="cart-item">
+                      <i class="fas fa-times cart-item__remove"></i>
+                      <div class="cart-item__img">
+                        <img src="assets/images/shop/grid/3.jpg" alt="product" />
+                      </div>
+                      <h5 class="cart-item__title">Leather Bag</h5>
+                    </td>
+                    <td class="cart-item__price">$ 39.00</td>
+                    <td class="cart-item__quantity">
+                      <div class="quantity__input-wrap">
+                        <i class="fas fa-minus decrease-qty"></i>
+                        <input type="number" value="1" class="qty-input">
+                        <i class="fas fa-plus increase-qty"></i>
+                      </div>
+                    </td>
+                    <td class="cart-item__total">$ 39.00</td>
+                  </tr>
+                  <tr class="cart-item__action">
+                    <td colspan="4">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 cart-item__action-content">
+                          <form class="d-flex flex-wrap">
+                            <input type="text" class="form-control mb-10 mr-10" placeholder="Coupon Code">
+                            <button type="submit" class="btn btn__primary mb-10">Apply Coupon</button>
+                          </form>
+                          <div>
+                            <a class="btn btn__primary mr-10" href="#">update cart</a>
+                            <a class="btn btn__primary" href="#">Checkout</a>
+                          </div>
+                        </div><!-- /.col-lg-2  -->
+                      </div><!-- /.row  -->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div><!-- /.cart-table -->
+          </div><!-- /.col-lg-12 -->
+
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="cart-total__amount">
+              <h6>Cart Totals</h6>
+              <ul class="list-unstyled mb-30">
+                <li><span>Cart Subtotal :</span><span>$ 140.00</span></li>
+                <li><span>Order Total :</span><span>$ 140.00</span></li>
+              </ul>
+              <a href="#" class="btn btn__primary btn__lg">Proceed To Checkout</a>
+            </div><!-- /.cart-total__amount -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    
+}
+}

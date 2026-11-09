@@ -1,0 +1,14 @@
+{
+  "method": "Visual review of all 104 modules and contact sheets",
+  "modules": 104,
+  "images": 114,
+  "localOriginals": 112,
+  "remoteFallbacks": [
+    78,
+    102
+  ],
+  "videos": 12,
+  "artworks": 66,
+  "services": 19,
+  "notes": "No verified client testimonials were present. Source titles and in-progress examples are retained in the complete archive."
+}

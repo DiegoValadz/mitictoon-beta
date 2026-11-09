@@ -1,0 +1,41 @@
+@switch (variant()) {
+@case (0) {
+
+      <div class="bg-img"><img src="assets/images/backgrounds/3.jpg" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-items-center vh-100">
+            <div>
+              <h1 class="error-code">404</h1>
+              <h2 class="error-title">The page requested couldn't be found.</h2>
+              <h3 class="error-subtitle">Oops! Page Not Found!</h3>
+              <a href="index.html" class="btn btn__primary">Back To Home</a>
+            </div>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    
+}
+@case (1) {
+
+      <div class="bg-img"><img src="assets/images/backgrounds/4.jpg" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-7 d-flex align-items-center vh-100">
+            <div>
+              <h2 class="error-title">Successfully Jump Start Your Startup.</h2>
+              <h3 class="error-subtitle">Our Website Is Coming Soon!</h3>
+              <div class="countdown" data-count-date="2021, 6, 31"></div>
+              <form class="subscribe-form d-flex mt-50" id="contactForm" method="post" action="assets/php/contact.php">
+                <input type="email" class="form-control" placeholder="Subscribe and stay tuned!" id="contact-email"
+                  name="contact-email" required>
+                <button type="submit" class="submit-btn"><i class="icon-arrow-right"></i></button>
+              </form>
+              <div class="contact-result"></div>
+            </div>
+          </div><!-- /.col-lg-7 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    
+}
+}

@@ -1,0 +1,37 @@
+@switch (variant()) {
+@case (0) {
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <h2 class="heading-subtitle">We believe in the power of simple communication.</h2>
+            <h3 class="heading-title">Feel free to contact for any questions or Help! </h3>
+            <p class="heading-desc mb-30">We understand the importance of approaching each work integrally and believe
+              in the power of simple and easy communication.</p>
+          </div><!-- /.col-lg-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <form method="post" action="assets/php/contact.php" id="contactForm">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
+                  required>
+                <span class="focus-border"></span>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email"
+                  required>
+                <span class="focus-border"></span>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message" id="contact-messgae" name="contact-messgae"
+                  required></textarea>
+                <span class="focus-border"></span>
+              </div>
+              <button type="submit" class="btn btn__primary">Send Message</button>
+              <div class="contact-result"></div>
+            </form>
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    
+}
+}
